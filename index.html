@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Animated Menu Icon</title>
+		<meta name="description" content="Demo for the the tutorial on how to animate a menu icon using SVG and Segment" />
+		<meta name="keywords" content="SVG, Segment, animation, tutorial, hamburger icon, css, javascript" />
+		<meta name="author" content="Luis Manuel for Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="js/segment.min.js"></script>
+		<script src="js/ease.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="" title="Previous Demo"><span>Previous Demo</span></a>
+					<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=25371" title="Back to the article"><span>Back to the Codrops article</span></a>
+				</div>
+				<h1>Animated Menu Icon <span>Animating an SVG Menu Icon with the <a href="https://github.com/lmgonzalves/segment">Segment</a> library by <a href="https://twitter.com/lmgonzalves">Luis Manuel</a> based on the <a href="https://dribbble.com/shots/2265620-hamburger-menu" target="_blank">Dribbble shot</a> by Tamas Kojo</h1>
+			</header>
+			<div class="content">
+				<div class="device">
+					<div class="device__screen">
+						<div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
+							<svg width="1000px" height="1000px">
+								<path id="pathA" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+								<path id="pathB" d="M 300 500 L 700 500"></path>
+								<path id="pathC" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+							</svg>
+							<button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+						</div><!-- menu-icon-wrapper -->
+						<div id="dummy" class="dummy">
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+						</div><!-- /dummy -->
+					</div><!-- /device-content -->
+				</div><!-- /device -->
+			</div><!-- /content -->
+			<div class="content content--alt">
+				<p class="info">The main idea is to create three paths that describe the <strong>trajectory of each bar</strong> in the menu icon when it transforms into the cross. </p>
+				<img class="info-img" src="img/menuicon.svg" alt="menuicon"/>
+			</div>
+			<div class="content">
+				<h2 class="content__title">Scaled Version <span>(based on <a href="https://dribbble.com/shots/2269450-hamburger-menu-2"> this Dribbble rebound</a> by Tamas Kojo)</span></h2>
+				<div class="device device--alt">
+					<div class="device__screen">
+						<div id="menu-icon-wrapper2" class="menu-icon-wrapper" style="visibility: hidden">
+							<svg width="1000px" height="1000px">
+								<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+								<path id="pathE" d="M 300 500 L 700 500"></path>
+								<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+							</svg>
+							<button id="menu-icon-trigger2" class="menu-icon-trigger"></button>
+						</div><!-- menu-icon-wrapper -->
+						<div id="dummy2" class="dummy">
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+						</div><!-- /dummy -->
+					</div><!-- /device-content -->
+				</div><!-- /device -->
+			</div><!-- /content -->
+			<!-- Related demos -->
+			<section class="content content--related">
+				<h3>Read the <a href="http://tympanus.net/codrops/?p=25371">tutorial</a></h3>
+				<p>If you enjoyed this demo you might also like:</p>
+				<a class="media-item" href="http://tympanus.net/Development/AnimatedSVGIcons/">
+					<img class="media-item__img" src="img/related/AnimatedSVGIcons.jpg">
+					<h3 class="media-item__title">Animated SVG Icons</h3>
+				</a>
+				<a class="media-item" href="http://tympanus.net/Development/AnimatedCheckboxes/">
+					<img class="media-item__img" src="img/related/AnimatedCheckboxes.png">
+					<h3 class="media-item__title">Animated Checkboxes with SVG</h3>
+				</a>
+			</section>
+		</div><!-- /container -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

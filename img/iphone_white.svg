@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="578px" height="1059px" viewBox="0 0 578 1059" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 6+ White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-2" x="12" y="9" width="456" height="937" rx="70.4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6+-White" sketch:type="MSLayerGroup" transform="translate(49.000000, 52.000000)">
+            <rect id="Mute-Switch" fill="#E0E0E1" sketch:type="MSShapeGroup" x="1" y="113" width="4" height="40" rx="44"></rect>
+            <g id="Volume-Switches" transform="translate(0.000000, 186.884876)" fill="#E0E0E1" sketch:type="MSShapeGroup">
+                <rect id="Volume-Up" x="0" y="0.115124153" width="7" height="73" rx="44"></rect>
+                <rect id="Volume-Down" x="0" y="89.1151242" width="7" height="73" rx="44"></rect>
+            </g>
+            <rect id="Power-Button" fill="#E0E0E1" sketch:type="MSShapeGroup" x="474" y="188" width="7" height="73" rx="44"></rect>
+            <rect id="Metal-Shell" fill="#DEDEDE" sketch:type="MSShapeGroup" x="3" y="0" width="474" height="955" rx="74.8"></rect>
+            <g id="Front-Plate" stroke-width="4.4">
+                <use stroke="#EDEDED" fill="#F8F8F8" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" fill="none" xlink:href="#path-2"></use>
+            </g>
+            <rect id="Screen-Outer" fill="#000000" sketch:type="MSShapeGroup" x="29" y="106" width="422" height="744" rx="4.4"></rect>
+            <rect id="Screen" fill="#1A1A1A" sketch:type="MSShapeGroup" x="33" y="110" width="414" height="736" rx="2.2"></rect>
+            <circle id="Home-button" stroke="#DDDDDD" stroke-width="4.4" fill="#F8F8F8" sketch:type="MSShapeGroup" cx="240" cy="896" r="35"></circle>
+            <circle id="Front-Camera" fill="#DDDDDD" sketch:type="MSShapeGroup" cx="173.5" cy="59.5" r="7.5"></circle>
+            <rect id="Front-Mic" fill="#DDDDDD" sketch:type="MSShapeGroup" x="207" y="56" width="66" height="6" rx="44"></rect>
+            <circle id="Light-Sensor" fill="#ECECEC" sketch:type="MSShapeGroup" cx="240" cy="30" r="4"></circle>
+            <g id="Antenna" transform="translate(3.303448, 65.931151)" fill="#DEDEDE" sketch:type="MSShapeGroup">
+                <rect id="Antenna-Top-Left" x="-0.303448276" y="0.0688487585" width="9" height="13"></rect>
+                <rect id="Antenna-Bottom-Left" x="-0.303448276" y="809.068849" width="9" height="13"></rect>
+                <rect id="Antenna-Top-Right" x="464.696552" y="0.0688487585" width="9" height="13"></rect>
+                <rect id="Antenna-Bottom-Right" x="464.696552" y="809.068849" width="9" height="13"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
